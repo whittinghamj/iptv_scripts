@@ -16,7 +16,7 @@ if(isset($argv[3])){
 
 // functions
 function get_device_info($ip_address){
-	$url_data = @}le_get_contents("http://".$ip_address.":8060/query/device-info");
+	$url_data = @file_get_contents("http://".$ip_address.":8060/query/device-info");
 	$xml = new SimpleXMLElement($url_data);
 
 	return $xml;
