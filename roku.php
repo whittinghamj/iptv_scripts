@@ -200,4 +200,16 @@ if($command == 'channel'){
 	exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/20242?contentID=".$contentID);
 }
 
+if($command == 'enable_dev'){
+	keypress($ip_address, 'Home', 0);
+	keypress($ip_address, 'Home', 0);
+	keypress($ip_address, 'Home', 0);
+	keypress($ip_address, 'Up', 0);
+	keypress($ip_address, 'Up', 0);
+	keypress($ip_address, 'Right', 0);
+	keypress($ip_address, 'Left', 0);
+	keypress($ip_address, 'Right', 0);
+	keypress($ip_address, 'Left', 0);
+	keypress($ip_address, 'Right', 0);
+}
 echo "Complete. \n";
