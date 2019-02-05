@@ -14,9 +14,12 @@ $command			= $argv[2];
 function get_device_info($ip_address){
 	$url_data = @file_get_contents("http://".$ip_address.":8060/query/device-info");
 	$xml = new SimpleXMLElement($url_data);
-	$data = $xml;
+	
+	print_r($xml);
 
-	return $xml;
+	// $data = $xml;
+
+	// return $xml;
 }
 
 function keypress($ip_address, $key, $sleep = '1'){
