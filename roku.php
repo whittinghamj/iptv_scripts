@@ -54,6 +54,8 @@ if($command == 'active_app'){
 
 	$active_app = get_active_app($ip_address);
 
+	echo "Active App: ".$active_app->app."\n";
+
 	print_r($active_app);
 }
 
