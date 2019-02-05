@@ -27,7 +27,7 @@ echo "Loading NowTV login screen. \n";
 // load_channel($ip_address, '20242', 1402, 20);
 
 // enter username text box
-keypress($ip_address, 'Select', 1);
+keypress($ip_address, 'Select', 2);
 
 // letter j
 keypress($ip_address, 'Down', 0);
@@ -41,17 +41,17 @@ keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 1);
-keypress($ip_address, 'Select', 0);
+keypress($ip_address, 'Back', 2);
+keypress($ip_address, 'Select', 1);
 
 // letter a
 keypress($ip_address, 'Down', 0);
 keypress($ip_address, 'Down', 0);
-keypress($ip_address, 'Select', 0);
+keypress($ip_address, 'Select', 1);
 
 // reset for next letter
-keypress($ip_address, 'Back', 1);
-keypress($ip_address, 'Select', 0);
+keypress($ip_address, 'Back', 2);
+keypress($ip_address, 'Select', 1);
 
 // letter m
 keypress($ip_address, 'Down', 0);
@@ -67,8 +67,8 @@ keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 1);
-keypress($ip_address, 'Select', 0);
+keypress($ip_address, 'Back', 2);
+keypress($ip_address, 'Select', 1);
 
 // letter i
 keypress($ip_address, 'Right', 0);
@@ -82,13 +82,13 @@ keypress($ip_address, 'Down', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 1);
-keypress($ip_address, 'Select', 0);
+keypress($ip_address, 'Back', 2);
+keypress($ip_address, 'Select', 1);
 
 // letter e
 keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Down', 0);
-keypress($ip_address, 'Select', 0);
+keypress($ip_address, 'Select', 1);
 
 
