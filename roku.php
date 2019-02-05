@@ -186,8 +186,8 @@ if($command == 'nowtv_channel'){
 		$contentID=1816;
 	}
 
-	if($channel =="sky_cinema_sci}"){
-		$channel_name='Sky Cinema Sci}';
+	if($channel =="sky_cinema_scifi"){
+		$channel_name='Sky Cinema SciFi';
 		$contentID=1807;
 	}
 
