@@ -197,7 +197,7 @@ if($command == 'channel'){
 	}
 
 	echo "Changing channel to ".$channel_name."\n";
-	exec("curl -d '' http://".$ip_address.":8060/launch/20242?contentID=".$contentID);
+	exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/20242?contentID=".$contentID);
 }
 
 echo "Complete. \n";
