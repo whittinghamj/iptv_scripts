@@ -113,7 +113,7 @@ if($command == 'channel'){
 	}
 
 	if($channel =="nickelodean"){
-		$channel_name='Nickelodean'
+		$channel_name='Nickelodean';
 		$contentID=1846;
 	}
 
