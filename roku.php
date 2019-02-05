@@ -201,7 +201,7 @@ if($command == 'channel'){
 }
 
 if($command == 'enable_dev'){
-	echo "Attempting to enable Dev mode: \n";
+	echo "Attempting to enable Dev mode. \n";
 
 	echo "\n";
 
@@ -235,7 +235,7 @@ if($command == 'enable_dev'){
 }
 
 if($command == 'reboot'){
-	echo "Rebooting Roku: \n";
+	echo "Rebooting Roku. \n";
 
 	echo "\n";
 
@@ -264,6 +264,72 @@ if($command == 'reboot'){
 	keypress($ip_address, 'Right', 0);
 	usleep(500000);
 	keypress($ip_address, 'Select', 0);
+}
+
+if($command == 'setup'){
+	echo "Configuring Roku for IPTV. \n";
+
+	echo "\n";
+
+	echo "Disabling the screensaver."
+
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Down', 0);
+	usleep(500000);
+	keypress($ip_address, 'Down', 0);
+	usleep(500000);
+	keypress($ip_address, 'Down', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Down', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Select', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+
+	echo "Changing the theme."
+
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Down', 0);
+	usleep(500000);
+	keypress($ip_address, 'Down', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Select', 0);
+	usleep(500000);
+	keypress($ip_address, 'Select', 0);
+	usleep(2000000);
+	keypress($ip_address, 'Home', 0);
 }
 
 echo "Complete. \n";
