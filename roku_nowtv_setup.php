@@ -41,7 +41,7 @@ keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Back', 1);
 keypress($ip_address, 'Select', 0);
 
 // letter a
@@ -50,7 +50,7 @@ keypress($ip_address, 'Down', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Back', 1);
 keypress($ip_address, 'Select', 0);
 
 // letter m
@@ -67,7 +67,7 @@ keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Back', 1);
 keypress($ip_address, 'Select', 0);
 
 // letter i
@@ -82,13 +82,13 @@ keypress($ip_address, 'Down', 0);
 keypress($ip_address, 'Select', 0);
 
 // reset for next letter
-keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Back', 1);
 keypress($ip_address, 'Select', 0);
 
 // letter e
 keypress($ip_address, 'Right', 0);
 keypress($ip_address, 'Right', 0);
-keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Down', 0); show_source()
 keypress($ip_address, 'Select', 0);
 
 
