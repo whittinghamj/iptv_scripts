@@ -12,6 +12,7 @@ $ip_address = $argv[1];
 
 // functions
 function nowtv_login_keyboard($ip_address, $key){
+	// row 1
 	if($key == '1'){
 		
 	}
@@ -79,6 +80,275 @@ function nowtv_login_keyboard($ip_address, $key){
 		keypress($ip_address, 'Right', '0');
 	}
 
+	// row 2
+	if($key == 'q'){
+		keypress($ip_address, 'Down', '0');
+	}
+	if($key == 'w'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'e'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'r'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 't'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'y'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'u'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'i'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'o'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'p'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+
+	// row 3
+	if($key == 'a'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+	}
+	if($key == 's'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'd'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'f'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'g'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'h'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'j'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'k'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'l'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == '@'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+
+	// row 4
+	if($key == 'z'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'x'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'c'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'v'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'b'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'n'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == 'm'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == '-'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+	if($key == '_'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+
+	// row 5
+	if($key == '.'){
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Down', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+		keypress($ip_address, 'Right', '0');
+	}
+
 	// select item
 	keypress($ip_address, 'Select', '1');
 
@@ -107,15 +377,8 @@ echo "Loading NowTV login screen. \n";
 keypress($ip_address, 'Select', 2);
 
 // letter j
-nowtv_login_keyboard($ip_address, '1');
-nowtv_login_keyboard($ip_address, '2');
-nowtv_login_keyboard($ip_address, '3');
-nowtv_login_keyboard($ip_address, '4');
-nowtv_login_keyboard($ip_address, '5');
-nowtv_login_keyboard($ip_address, '6');
-nowtv_login_keyboard($ip_address, '7');
-nowtv_login_keyboard($ip_address, '8');
-nowtv_login_keyboard($ip_address, '9');
-nowtv_login_keyboard($ip_address, '0');
+$username = str_split('jamie.whittingham@gmail.com');
 
-
+foreach($username as $key => $value){
+	nowtv_login_keyboard($ip_address, $value);
+}
