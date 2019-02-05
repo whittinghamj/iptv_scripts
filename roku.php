@@ -22,6 +22,13 @@ function get_device_info($ip_address){
 	return $xml;
 }
 
+function get_active_app($ip_address){
+	$url_data = @file_get_contents("http://".$ip_address.":8060/query/active-app");
+	$xml = new SimpleXMLElement($url_data);
+
+	return $xml;
+}
+
 function keypress($ip_address, $key, $sleep = '1'){
 	exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/keypress/".$key);
 	sleep($sleep);
@@ -40,7 +47,14 @@ if($command == 'device_info'){
 	echo "\n";
 	echo " - Device: ".$device_info->{'model-name'}."\n";
 	echo " - Serial Number: ".$device_info->{'serial-number'}."\n";
-	echo "\n";
+}
+
+if($command == 'active_app'){
+	echo "Getting Active App: \n";
+
+	$active_app = get_active_app($ip_address);
+
+	print_r($active_app);
 }
 
 if($command == 'channel'){
@@ -328,4 +342,5 @@ if($command == 'setup'){
 	keypress($ip_address, 'Home', 0);
 }
 
+echo "\n";
 echo "Complete. \n";
