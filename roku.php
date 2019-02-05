@@ -201,15 +201,15 @@ if($command == 'channel'){
 }
 
 if($command == 'enable_dev'){
-	keypress($ip_address, 'Home', 0);
-	keypress($ip_address, 'Home', 0);
-	keypress($ip_address, 'Home', 0);
-	keypress($ip_address, 'Up', 0);
-	keypress($ip_address, 'Up', 0);
-	keypress($ip_address, 'Right', 0);
-	keypress($ip_address, 'Left', 0);
-	keypress($ip_address, 'Right', 0);
-	keypress($ip_address, 'Left', 0);
-	keypress($ip_address, 'Right', 0);
+	keypress($ip_address, 'Home', 1);
+	keypress($ip_address, 'Home', 1);
+	keypress($ip_address, 'Home', 1);
+	keypress($ip_address, 'Up', 1);
+	keypress($ip_address, 'Up', 1);
+	keypress($ip_address, 'Right', 1);
+	keypress($ip_address, 'Left', 1);
+	keypress($ip_address, 'Right', 1);
+	keypress($ip_address, 'Left', 1);
+	keypress($ip_address, 'Right', 1);
 }
 echo "Complete. \n";
