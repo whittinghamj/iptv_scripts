@@ -744,7 +744,6 @@ foreach($username as $key => $value){
 	nowtv_login_keyboard($ip_address, $value);
 }
 
-die();
 // enter password text box
 keypress($ip_address, 'Play', 0);
 
