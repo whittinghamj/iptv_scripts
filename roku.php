@@ -201,6 +201,18 @@ if($command == 'channel'){
 }
 
 if($command == 'enable_dev'){
+	echo "Attempting to enable Dev mode: \n";
+
+	echo "\n";
+
+	echo "If this does not work then try the following using the remote. \n";
+
+	echo "\n";
+
+	echo "Home Home Home Up Up Right Left Right Left Right \n";
+
+	echo "\n";
+
 	keypress($ip_address, 'Home', 0);
 	usleep(500000);
 	keypress($ip_address, 'Home', 0);
@@ -221,4 +233,37 @@ if($command == 'enable_dev'){
 	usleep(500000);
 	keypress($ip_address, 'Right', 0);
 }
+
+if($command == 'reboot'){
+	echo "Rebooting Roku: \n";
+
+	echo "\n";
+
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Home', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Up', 0);
+	usleep(500000);
+	keypress($ip_address, 'Right', 0);
+	usleep(500000);
+	keypress($ip_address, 'Select', 0);
+}
+
 echo "Complete. \n";
