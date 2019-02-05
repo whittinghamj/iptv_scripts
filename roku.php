@@ -10,6 +10,10 @@
 $ip_address 		= $argv[1];
 $command			= $argv[2];
 
+if(isset($argv[3])){
+	$channel 		= $argv[3];
+}
+
 // functions
 function get_device_info($ip_address){
 	$url_data = @file_get_contents("http://".$ip_address.":8060/query/device-info");
