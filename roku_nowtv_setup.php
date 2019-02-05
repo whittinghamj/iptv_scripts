@@ -740,7 +740,7 @@ load_channel($ip_address, '20242', 1402, 20);
 keypress($ip_address, 'Select', 2);
 
 // enter the username
-echo "Entering username. \n";
+echo "Entering username: ".$username."\n";
 foreach($username as $key => $value){
 	nowtv_login_keyboard($ip_address, $value);
 }
@@ -749,7 +749,7 @@ foreach($username as $key => $value){
 keypress($ip_address, 'Play', 0);
 
 // enter the password
-echo "Entering password. \n";
+echo "Entering password: ".$password."\n";
 foreach($password as $key => $value){
 	nowtv_login_keyboard($ip_address, $value);
 }
