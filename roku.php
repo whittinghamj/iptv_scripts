@@ -54,6 +54,10 @@ if($command == 'active_app'){
 
 	$active_app = get_active_app($ip_address);
 
+	$json = json_encode($active_app);
+
+	echo $json;
+
 	echo "Active App: ".$active_app->app."\n";
 }
 
