@@ -14,12 +14,8 @@ $command			= $argv[2];
 function get_device_info($ip_address){
 	$url_data = @file_get_contents("http://".$ip_address.":8060/query/device-info");
 	$xml = new SimpleXMLElement($url_data);
-	
-	print_r($xml);
 
-	// $data = $xml;
-
-	// return $xml;
+	return $xml;
 }
 
 function keypress($ip_address, $key, $sleep = '1'){
@@ -32,7 +28,9 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 	sleep($sleep);
 }
 
-
-echo "Getting Device Details: ".get_device_info($ip_address)."\n";
+$device_info = get_device_info($ip_address);
+echo "Getting Device Details: \n";
+echo "Device: ".$device_info-{'model-name'}."\n";
+echo "Serial Number: ".$device_info-{'serial-number'}."\n";
 
 echo "Complete. \n";
