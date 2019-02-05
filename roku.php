@@ -402,6 +402,107 @@ if($command == 'bbc_channel'){
 	}
 }
 
+if($command == 'itv_channel'){
+	if($channel =="itv_one"){
+	   	$channel_name='ITV 1';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/42329");
+		sleep(5);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="itv_two"){
+	   	$channel_name='ITV 2';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/42329");
+		sleep(5);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="itv_be"){
+	   	$channel_name='ITV Be';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/42329");
+		sleep(5);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="itv_three"){
+	   	$channel_name='ITV 3';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/42329");
+		sleep(5);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="itv_four"){
+	   	$channel_name='ITV 4';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/42329");
+		sleep(5);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="citv"){
+	   	$channel_name='CITV';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+	   	keypress($ip_address, 'Home', 0);
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/42329");
+		sleep(5);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+}
+
 if($command == 'enable_dev'){
 	echo "Attempting to enable Dev mode. \n";
 
