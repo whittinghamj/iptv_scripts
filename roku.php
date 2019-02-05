@@ -28,9 +28,15 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 	sleep($sleep);
 }
 
-$device_info = get_device_info($ip_address);
-echo "Getting Device Details: \n";
-echo "Device: ".$device_info->{'model-name'}."\n";
-echo "Serial Number: ".$device_info->{'serial-number'}."\n";
+if($command == 'device_info'){
+	echo "Getting Device Details: \n";
+
+	$device_info = get_device_info($ip_address);
+
+	echo "\n";
+	echo "Device: ".$device_info->{'model-name'}."\n";
+	echo "Serial Number: ".$device_info->{'serial-number'}."\n";
+	echo "\n";
+}
 
 echo "Complete. \n";
