@@ -24,7 +24,7 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 
 // load NowTV ready for initial login
 echo "Loading NowTV login screen. \n";
-load_channel($ip_address, '20242', 1402, 5);
+load_channel($ip_address, '20242', 1402, 10);
 
 // enter username text box
 keypress($ip_address, 'Select', 1);
