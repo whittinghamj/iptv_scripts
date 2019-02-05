@@ -11,6 +11,7 @@ $ip_address 		= $argv[1];
 $username 			= str_split('jamie.whittingham@gmail.com');
 $password 			= str_split('admin1372');
 
+
 // functions
 function nowtv_login_keyboard($ip_address, $key){
 	// row 1
@@ -735,8 +736,10 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 echo "Loading NowTV login screen. \n";
 load_channel($ip_address, '20242', 1402, 20);
 
+
 // enter username text box
 keypress($ip_address, 'Select', 2);
+
 
 // enter the username
 echo "Entering username: ".$username."\n";
@@ -744,8 +747,10 @@ foreach($username as $key => $value){
 	nowtv_login_keyboard($ip_address, $value);
 }
 
+
 // enter password text box
 keypress($ip_address, 'Play', 0);
+
 
 // enter the password
 echo "Entering password: ".$password."\n";
@@ -753,8 +758,10 @@ foreach($password as $key => $value){
 	nowtv_login_keyboard($ip_address, $value);
 }
 
+
 // submit login details
 keypress($ip_address, 'Play', 0);
 keypress($ip_address, 'Select', 0);
+
 
 echo "Complete. \n";
