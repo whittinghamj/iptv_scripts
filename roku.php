@@ -1,6 +1,6 @@
 <?php
 
-# Name: Roku NowTV Setup Script
+# Name: Roku Management Script
 # Author: GTV
 # Created: 04 Feb 2019
 # Version 1.0
