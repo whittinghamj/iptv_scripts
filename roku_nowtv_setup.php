@@ -747,9 +747,7 @@ foreach($username as $key => $value){
 
 die();
 // enter password text box
-keypress($ip_address, 'Back', 2);
-keypress($ip_address, 'Down', 2);
-keypress($ip_address, 'Select', 2);
+keypress($ip_address, 'Fwd', 0);
 
 // enter the password
 foreach($password as $key => $value){
