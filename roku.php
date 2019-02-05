@@ -38,8 +38,8 @@ if($command == 'device_info'){
 	$device_info = get_device_info($ip_address);
 
 	echo "\n";
-	echo "Device: ".$device_info->{'model-name'}."\n";
-	echo "Serial Number: ".$device_info->{'serial-number'}."\n";
+	echo " - Device: ".$device_info->{'model-name'}."\n";
+	echo " - Serial Number: ".$device_info->{'serial-number'}."\n";
 	echo "\n";
 }
 
@@ -237,8 +237,6 @@ if($command == 'enable_dev'){
 if($command == 'reboot'){
 	echo "Rebooting Roku. \n";
 
-	echo "\n";
-
 	keypress($ip_address, 'Home', 0);
 	usleep(500000);
 	keypress($ip_address, 'Home', 0);
@@ -269,9 +267,7 @@ if($command == 'reboot'){
 if($command == 'setup'){
 	echo "Configuring Roku for IPTV. \n";
 
-	echo "\n";
-
-	echo "Disabling the screensaver. \n";
+	echo " - Disabling the screensaver. \n";
 
 	keypress($ip_address, 'Home', 0);
 	usleep(500000);
@@ -301,7 +297,7 @@ if($command == 'setup'){
 	usleep(500000);
 	keypress($ip_address, 'Home', 0);
 
-	echo "Changing the theme. \n";
+	echo " - Changing the theme. \n";
 
 	keypress($ip_address, 'Home', 0);
 	usleep(500000);
