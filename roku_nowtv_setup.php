@@ -377,21 +377,18 @@ load_channel($ip_address, '20242', 1402, 20);
 
 // enter username text box
 keypress($ip_address, 'Select', 2);
-nowtv_login_keyboard($ip_address, '.');
-nowtv_login_keyboard($ip_address, '.');
-nowtv_login_keyboard($ip_address, '.');
 
 // enter the username
-// foreach($username as $key => $value){
-// 	nowtv_login_keyboard($ip_address, $value);
-// }
+foreach($username as $key => $value){
+	nowtv_login_keyboard($ip_address, $value);
+}
 
 // enter password text box
-// keypress($ip_address, 'Back', 2);
-// keypress($ip_address, 'Down', 2);
-// keypress($ip_address, 'Select', 2);
+keypress($ip_address, 'Back', 2);
+keypress($ip_address, 'Down', 2);
+keypress($ip_address, 'Select', 2);
 
 // enter the password
-// foreach($password as $key => $value){
-// 	nowtv_login_keyboard($ip_address, $value);
-// }
+foreach($password as $key => $value){
+	nowtv_login_keyboard($ip_address, $value);
+}
