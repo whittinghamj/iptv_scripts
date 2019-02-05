@@ -43,6 +43,8 @@ if($command == 'device_info'){
 	$device_info = get_device_info($ip_address);
 
 	$json = json_encode($device_info);
+
+	echo $json;
 }
 
 if($command == 'active_app'){
