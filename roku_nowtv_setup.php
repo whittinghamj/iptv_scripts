@@ -751,3 +751,6 @@ keypress($ip_address, 'Play', 0);
 foreach($password as $key => $value){
 	nowtv_login_keyboard($ip_address, $value);
 }
+
+// submit login details
+keypress($ip_address, 'Play', 0);
