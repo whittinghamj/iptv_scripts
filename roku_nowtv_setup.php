@@ -7,10 +7,9 @@
 
 
 // vars
-$ip_address = $argv[1];
-
-$username = str_split('jamie.whittingham@gmail.com');
-$password = str_split('admin1372');
+$ip_address 		= $argv[1];
+$username 			= str_split('jamie.whittingham@gmail.com');
+$password 			= str_split('admin1372');
 
 // functions
 function nowtv_login_keyboard($ip_address, $key){
