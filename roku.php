@@ -91,7 +91,7 @@ if($command == 'channel'){
 	}
 
 	if($channel =="mtv"){
-		ec$channel_name='MTV';
+		$channel_name='MTV';
 		$contentID=2501;
 	}
 
