@@ -1,7 +1,7 @@
 <?php
 
 function keypress($ip_address, $key){
-	execl()
+	execl();
 }
 
 function load_channel($ip_address, $channel_id, $content_id = ''){
