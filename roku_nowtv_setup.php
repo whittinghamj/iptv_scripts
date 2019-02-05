@@ -24,24 +24,71 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 
 // load NowTV ready for initial login
 echo "Loading NowTV login screen. \n";
-load_channel($ip_address, '20242', 1402, 10);
+// load_channel($ip_address, '20242', 1402, 20);
 
 // enter username text box
 keypress($ip_address, 'Select', 1);
 
-keypress($ip_address, 'Down', 1);
-keypress($ip_address, 'Down', 1);
-keypress($ip_address, 'Right', 1);
-keypress($ip_address, 'Right', 1);
-keypress($ip_address, 'Right', 1);
-keypress($ip_address, 'Right', 1);
-keypress($ip_address, 'Right', 1);
-keypress($ip_address, 'Right', 1);
-keypress($ip_address, 'Select', 1);
+// letter j
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Select', 0);
 
-keypress($ip_address, 'Back', 1);
-keypress($ip_address, 'Select', 1);
+// reset for next letter
+keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Select', 0);
 
-keypress($ip_address, 'Down', 1);
-keypress($ip_address, 'Down', 1);
-keypress($ip_address, 'Select', 1);
+// letter a
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Select', 0);
+
+// reset for next letter
+keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Select', 0);
+
+// letter m
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Select', 0);
+
+// reset for next letter
+keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Select', 0);
+
+// letter i
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Select', 0);
+
+// reset for next letter
+keypress($ip_address, 'Back', 0);
+keypress($ip_address, 'Select', 0);
+
+// letter e
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Right', 0);
+keypress($ip_address, 'Down', 0);
+keypress($ip_address, 'Select', 0);
+
+
