@@ -721,7 +721,6 @@ function nowtv_login_keyboard($ip_address, $key){
 	// keypress($ip_address, 'Select', '0');
 }
 
-
 function keypress($ip_address, $key, $sleep = '1'){
 	exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/keypress/".$key);
 	sleep($sleep);
@@ -747,7 +746,7 @@ foreach($username as $key => $value){
 
 die();
 // enter password text box
-keypress($ip_address, 'Fwd', 0);
+keypress($ip_address, 'Play', 0);
 
 // enter the password
 foreach($password as $key => $value){
