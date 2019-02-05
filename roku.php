@@ -271,7 +271,7 @@ if($command == 'setup'){
 
 	echo "\n";
 
-	echo "Disabling the screensaver."
+	echo "Disabling the screensaver.";
 
 	keypress($ip_address, 'Home', 0);
 	usleep(500000);
@@ -301,7 +301,7 @@ if($command == 'setup'){
 	usleep(500000);
 	keypress($ip_address, 'Home', 0);
 
-	echo "Changing the theme."
+	echo "Changing the theme.";
 
 	keypress($ip_address, 'Home', 0);
 	usleep(500000);
