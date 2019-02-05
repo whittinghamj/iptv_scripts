@@ -15,13 +15,6 @@ if(isset($argv[3])){
 }
 
 // functions
-function get_device_info($ip_address){
-	$url_data = @file_get_contents("http://".$ip_address.":8060/query/device-info");
-	$xml = new SimpleXMLElement($url_data);
-
-	return $xml;
-}
-
 function get_active_app($ip_address){
 	$url_data = @file_get_contents("http://".$ip_address.":8060/query/active-app");
 	$xml = new SimpleXMLElement($url_data);
@@ -40,7 +33,8 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 }
 
 if($command == 'device_info'){
-	$device_info = get_device_info($ip_address);
+	$url_data 			= @file_get_contents("http://".$ip_address.":8060/query/device-info");
+	$device_info 		= new SimpleXMLElement($url_data);
 
 	$json = json_encode($device_info);
 
@@ -48,7 +42,8 @@ if($command == 'device_info'){
 }
 
 if($command == 'active_app'){
-	$active_app = get_active_app($ip_address);
+	$url_data = @file_get_contents("http://".$ip_address.":8060/query/active-app");
+	$active_app = new SimpleXMLElement($url_data);
 
 	$json = json_encode($active_app);
 
