@@ -208,14 +208,162 @@ if($command == 'nowtv_channel'){
 }
 
 if($command == 'bbc_channel'){
-	# entertainment pass
 	if($channel =="bbc_one"){
 	   	$channel_name='BBC One';
-		$contentID='1402';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(5);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
 	}
 
-	echo "Changing channel to ".$channel_name."\n";
-	exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703?contentID=".$contentID);
+	if($channel =="bbc_two"){
+	   	$channel_name='BBC Two';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_four"){
+	   	$channel_name='BBC Four';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_news"){
+	   	$channel_name='BBC News';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_parliament"){
+	   	$channel_name='BBC Parliament';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_alba"){
+	   	$channel_name='BBC Alba';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_s4c"){
+	   	$channel_name='BBC S4C';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_cbeebies"){
+	   	$channel_name='BBC CBeebies';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
+
+	if($channel =="bbc_cbbc"){
+	   	$channel_name='BBC CBBC';
+
+	   	echo "Changing channel to ".$channel_name."\n";
+		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
+		sleep(10);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 2);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Select', 0);
+	}
 }
 
 if($command == 'enable_dev'){
