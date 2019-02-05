@@ -5,7 +5,7 @@ function keypress($ip_address, $key){
 }
 
 function load_channel($ip_address, $channel_id, $content_id = ''){
-	exec("curl -d '' http://".$ip_address.":8060/launch/".$channel_id."?contentID=".$content_id);
+	exec("curl -d '' http://".$ip_address.":8060/launch/".$channel_id."?contentID=".$content_id." > /dev/null");
 }
 
 // curl -d '' http://$IP_ADDRESS:8060/launch/20242?contentID=1402
