@@ -11,7 +11,7 @@ $ip_address = $argv[1];
 
 
 // functions
-nowtv_login_keyboard($ip_address, $key){
+function nowtv_login_keyboard($ip_address, $key){
 	if($key == '1'){
 		
 	}
