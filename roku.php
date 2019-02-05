@@ -234,10 +234,10 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -251,12 +251,12 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -270,14 +270,14 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -291,15 +291,15 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -313,16 +313,16 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -336,17 +336,17 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -360,18 +360,18 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 
@@ -385,19 +385,19 @@ if($command == 'bbc_channel'){
 	   	keypress($ip_address, 'Home', 0);
 		exec("curl --silent --output /dev/null -d '' http://".$ip_address.":8060/launch/11703");
 		sleep(10);
-		keypress($ip_address, 'Right', 1);
+		keypress($ip_address, 'Right', 2);
 		keypress($ip_address, 'Down', 2);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Right', 1);
-		keypress($ip_address, 'Down', 1);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Right', 2);
+		keypress($ip_address, 'Down', 2);
 		keypress($ip_address, 'Select', 0);
 	}
 }
