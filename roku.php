@@ -40,25 +40,17 @@ function load_channel($ip_address, $channel_id, $content_id = '', $sleep = '1'){
 }
 
 if($command == 'device_info'){
-	echo "Getting Device Details: \n";
-
 	$device_info = get_device_info($ip_address);
 
-	echo "\n";
-	echo " - Device: ".$device_info->{'model-name'}."\n";
-	echo " - Serial Number: ".$device_info->{'serial-number'}."\n";
+	$json = json_encode($device_info);
 }
 
 if($command == 'active_app'){
-	echo "Getting Active App: \n";
-
 	$active_app = get_active_app($ip_address);
 
 	$json = json_encode($active_app);
 
 	echo $json;
-
-	echo "Active App: ".$active_app->app."\n";
 }
 
 if($command == 'channel'){
@@ -345,6 +337,3 @@ if($command == 'setup'){
 	usleep(2000000);
 	keypress($ip_address, 'Home', 0);
 }
-
-echo "\n";
-echo "Complete. \n";
