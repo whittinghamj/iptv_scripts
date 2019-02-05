@@ -8,7 +8,7 @@
 
 // vars
 $ip_address 		= $argv[1];
-$command			= $arvg[2];
+$command			= $argv[2];
 
 // functions
 function get_device_info($ip_address){
@@ -16,7 +16,7 @@ function get_device_info($ip_address){
 	$xml = new SimpleXMLElement($url_data);
 	$data = $xml;
 
-	return $data;
+	return $xml;
 }
 
 function keypress($ip_address, $key, $sleep = '1'){
