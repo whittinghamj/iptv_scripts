@@ -146,7 +146,7 @@ if($command == 'nowtv_channel'){
 		$contentID=1409;
 	}
 
-	if($channel =="sky_cinema_megahits"){
+	if($channel =="sky_cinema_megahits" || $channel =="sky_cinema_hits"){
 		$channel_name='Sky Cinema Megahits';
 		$contentID=1814;
 	}
